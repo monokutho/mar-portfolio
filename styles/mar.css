@@ -12,6 +12,13 @@ body {
 
 }
 
+.fab {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
 /*-----------------------------PARALLAX-------------------------------*/
 #parallax
 {
@@ -116,7 +123,7 @@ body {
 
 .sections {
 	position: relative;
-	height: 500px;
+	height: 450px;
 	width: 100%;
 }
 
@@ -144,10 +151,30 @@ p{
 	padding: 70px;
 }
 
-/*---------------------ILUSTRATION-------------*/
+/*---------------------ANIMATION-------------*/
 #animation .videocontainer {
 	display: flex;
 	justify-content: center;
+}
+
+#app-videogames {
+	height: 400px;
+	margin-top: 60px;
+}
+
+/*---------------------CONTACT-------------*/
+#contact {
+	height: 300px;
+	text-align: center;
+}
+
+#contact .media-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+#contact .media-wrapper * {
+	width: 20vw;
 }
 
 /*FOOTER*/
